@@ -41,14 +41,18 @@
 - [ ] components as props
 - [ ] Lab: Rating
 
-## M006 | CLASS COMPONENTS 
+## M006 | CLASS COMPONENTS
 
-- [ ] class components
+- [ ] Slides: REACT.pdf > class components
+- [ ] Demo: ClassComponents
+- [ ] Commit: [m006 demo](https://github.com/ppedvAG/2021-04-08-react/commit/3b1592673dac43439f0811cb78032b185acdbaf3)
 
 ## M007 | COMPONENT STATE
 
 - [ ] constructor
 - [ ] state
+- [ ] Übung: [DateTime](default-app/src/m007/DateTime.tsx)
+- [ ] Commit: [m007 datetime]
 - [ ] use state hook
 - [ ] components in state
 - [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module50`

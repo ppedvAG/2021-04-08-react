@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ElementChildren, { ComponentChildren, ReactChildren } from './m004/Children';
 import ClassComponent, { ClassComponentWithProps } from './m006/ClassComponent';
+import { DateTime } from './m007/DateTime';
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
         <ClassComponentWithProps inhalt="Inhalt für Props">
           <p>child</p>
         </ClassComponentWithProps>
+        <h2>State</h2>
+        <DateTime />
       </header>
     </div>
   );
