@@ -1,18 +1,18 @@
 ﻿# REACT
 
-## M00 | WARMING UP
+## M000 | WARMING UP
 
 - [x] Slides: Greeter.pdf
 - [x] Kursablauf, Übersicht von Modulen präsentieren
 - [x] Slides: VSCode.pdf > Intro
 - [x] Lab: Repo clonen, Repo Struktur kennen lernen
-- [ ] Commit: [m000 done]
+- [x] Commit: [m000 done](https://github.com/ppedvAG/2021-04-08-react/commit/5fa5d98f9208f0b8abcef068badea309b5bc086b)
 
+## M001 | GETTING STARTED
 
-## M10 | GETTING STARTED
-
-- [ ] Slides: React.pdf > Intro
-- [ ] Demo: React über CDN - helloreact.html
+- [x] Slides: React.pdf > Intro
+- [x] Demo: React über CDN - [helloReact.html](m001/helloReact.html)
+- [ ] Commit: [m001 done]()
 
 ## MXX | REACT ECOSYSTEM
 
