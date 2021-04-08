@@ -22,15 +22,18 @@
 
 ## M003 | JSX INTRO
 
-- [ ] Slides: jsx/tsx intro
-- [ ] : emmet
-- [ ] Demo: Default APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module20`
-- [ ] Übung: TODO APP Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version20`
-- [ ] Commit: [m003 done]()
+- [x] Slides: jsx/tsx intro
+- [x] : emmet
+- [x] Demo: Default APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module20`
+- [x] Übung: TODO APP Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version20`
+- [x] Commit: [m003 done](https://github.com/ppedvAG/2021-04-08-react/commit/d363a8b366eb2e7be068531aa6550687574ee389)
 
-## MXX | REACT ELEMENTS
+## M004 | REACT ELEMENTS
 
-- [ ] elements
+- [ ] Slides: REACT.pdf > Elements
+- [ ] Demo: [children.tsx](./m004/../default-app/src/m004/Children.tsx)
+- [ ] Übung: [tableRed.tsx]()
+- [ ] Commit: [m004 done]
 
 ## MXX | FUNCTION COMPONENTS AND PROPS
 

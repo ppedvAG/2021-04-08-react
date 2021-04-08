@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.erledigt {
+  text-decoration: line-through;
+}
+
+#table2 {
+  border: thick solid blue;
+}
+
+#table3 {
+  border: thick solid red;
+}

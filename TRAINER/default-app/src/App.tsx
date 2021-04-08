@@ -1,6 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ElementChildren, { ComponentChildren, ReactChildren } from './m004/Children';
 
 function App() {
   return (
@@ -13,8 +12,21 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Homepage
         </a>
+        <h2>props.children</h2>
+        <pre>Children von einem JSX-Element / React-Element</pre>
+        <ElementChildren />
+        <pre>Children von einer React-Komponente</pre>
+        <ComponentChildren>
+          <p>text für return der Komponente selbst</p>
+        </ComponentChildren>
+        <pre>Einsetzen von React.Children</pre>
+        <ReactChildren>
+          <p>p1</p>
+          <p>p2</p>
+          <p>p3</p>
+        </ReactChildren>
       </header>
     </div>
   );

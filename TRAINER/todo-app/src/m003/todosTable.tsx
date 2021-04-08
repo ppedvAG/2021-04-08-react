@@ -25,25 +25,57 @@ export default function TodosTable() {
             "completed": true
         }
     ]
+    /* Übung M003 */
+    /* text-decoration: line-through */
     let table = (
-        <table>
-            {
-                todos.map(todo => (
-                    <tr>
-                        <td>{todo.id}</td>
-                        <td>{todo.userId}</td>
-                        <td>{todo.title}</td>
-                        <td>{todo.completed.toString()}</td>
-                    </tr>))
-            }
-
-        </table>
+        <>
+            <table>
+                <tbody>
+                    {
+                        todos.map(todo => (
+                            <tr key={todo.id} className={todo.completed ? 'erledigt' : ''}>
+                                <td>{todo.id}</td>
+                                <td>{todo.userId}</td>
+                                <td>{todo.title}</td>
+                                <td>{todo.completed.toString()}</td>
+                            </tr>))
+                    }
+                </tbody>
+            </table>
+            <table id="table2">
+                <tbody>
+                    {
+                        todos.map(todo => (
+                            <tr key={todo.id} className={todo.completed ? 'erledigt' : ''}>
+                                <td>{todo.id}</td>
+                                <td>{todo.userId}</td>
+                                <td>{todo.title}</td>
+                                <td>{todo.completed.toString()}</td>
+                            </tr>))
+                    }
+                </tbody>
+            </table>
+            <table id="table3">
+                <tbody>
+                    {
+                        todos.map(todo => (
+                            <tr key={todo.id} className={todo.completed ? 'erledigt' : ''}>
+                                <td>{todo.id}</td>
+                                <td>{todo.userId}</td>
+                                <td>{todo.title}</td>
+                                <td>{todo.completed.toString()}</td>
+                            </tr>))
+                    }
+                </tbody >
+            </table >
+        </>
     )
+
     return (
         <>
-        {table}
+            {table}
         </>
-    
+
 
     )
 }
