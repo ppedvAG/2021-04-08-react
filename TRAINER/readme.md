@@ -51,8 +51,10 @@
 
 - [ ] constructor
 - [ ] state
-- [ ] Übung: [DateTime](default-app/src/m007/DateTime.tsx)
-- [ ] Commit: [m007 datetime]
+- [ ] Demo: [DateTime.tsx](default-app/src/m007/DateTime.tsx)
+- [ ] Commit: [m007 datetime](https://github.com/ppedvAG/2021-04-08-react/commit/2a2f4fb2ac116ea8e046fa6567a63b9560792aa6)
+- [ ] Übung: [InputField.tsx](todo-app/src/m007/InputField.tsx)
+- [ ] Commit: [m007 input]
 - [ ] use state hook
 - [ ] components in state
 - [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module50`

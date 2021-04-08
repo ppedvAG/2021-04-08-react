@@ -1,5 +1,7 @@
+import React from 'react';
 import './App.css';
 import TodosTable from './m003/todosTable';
+import InputField from './m007/InputField';
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         </a>
       </header>
       <TodosTable />
+      <InputField />
     </div>
   );
 }
