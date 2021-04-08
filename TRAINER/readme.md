@@ -12,26 +12,21 @@
 
 - [x] Slides: React.pdf > Intro
 - [x] Demo: React über CDN - [helloReact.html](m001/helloReact.html)
-- [ ] Commit: [m001 done]()
+- [x] Commit: [m001 done](https://github.com/ppedvAG/2021-04-08-react/commit/f2c57bd740603eb839c7482a50f40ab32a90a97a)
 
-## MXX | REACT ECOSYSTEM
+## M002 | REACT ECOSYSTEM
 
-- [ ] Slides: React Ecosystem (wenn keine pdf-Datei angegeben, dann ist es React.pdf)
-- [ ] Slides: Node-N-Npm.pdf > Node > Intro
-- [ ] Slides: Node-N-Npm.pdf > Npm > Intro
+- [x] Slides: React.pdf > React Ecosystem (wenn keine pdf-Datei angegeben, dann ist es React.pdf)
+- [x] Slides: Node-N-Npm.pdf > Node > Intro
+- [x] Slides: Node-N-Npm.pdf > Npm > Intro
 
-### THEORY APP
-In index.js comment in the line 4 `import App from './App';` and comment out the line 6 `import App from './module10/App';`
-
-### TODO APP
-Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version10`
-
-## MXX | JSX INTRO
+## M003 | JSX INTRO
 
 - [ ] Slides: jsx/tsx intro
 - [ ] : emmet
-- [ ] Demo THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module20`
-- [ ] Lab: TODO APP Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version20`
+- [ ] Demo: Default APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module20`
+- [ ] Übung: TODO APP Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version20`
+- [ ] Commit: [m003 done]()
 
 ## MXX | REACT ELEMENTS
 
