@@ -30,29 +30,23 @@
 
 ## M004 | REACT ELEMENTS
 
-- [ ] Slides: REACT.pdf > Elements
-- [ ] Demo: [children.tsx](./m004/../default-app/src/m004/Children.tsx)
-- [ ] Übung: [tableRed.tsx]()
-- [ ] Commit: [m004 done]
+- [x] Slides: REACT.pdf > Elements
+- [x] Demo: [children.tsx](./m004/../default-app/src/m004/Children.tsx)
+- [x] Übung: [tableRed.tsx]()
+- [x] Commit: [m004 done](https://github.com/ppedvAG/2021-04-08-react/commit/32413b7759ee030d50e6d64a9526fee50dc9941f)
 
-## MXX | FUNCTION COMPONENTS AND PROPS
+## M005 | FUNCTION COMPONENTS AND PROPS
 
-- [ ] Slides: react > components > function components & props
-- [ ] props
-- [ ] props.children
+- [x] Slides: react > components > function components & props
 - [ ] components as props
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module30`
-- [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version30`
+- [ ] Lab: Rating
 
-## MXX | JSX CONTINUED
-
-- [ ] Slides: attributes, conditionals, iterating
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module40`
-- [ ] TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version40`
-
-## MXX | COMPONENTS AND STATE
+## M006 | CLASS COMPONENTS 
 
 - [ ] class components
+
+## M007 | COMPONENT STATE
+
 - [ ] constructor
 - [ ] state
 - [ ] use state hook

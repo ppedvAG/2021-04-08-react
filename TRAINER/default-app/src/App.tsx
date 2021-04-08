@@ -1,5 +1,7 @@
+import React from 'react';
 import './App.css';
 import ElementChildren, { ComponentChildren, ReactChildren } from './m004/Children';
+import ClassComponent, { ClassComponentWithProps } from './m006/ClassComponent';
 
 function App() {
   return (
@@ -27,6 +29,11 @@ function App() {
           <p>p2</p>
           <p>p3</p>
         </ReactChildren>
+        <h2>Komponenten als Klassen</h2>
+        <ClassComponent/>
+        <ClassComponentWithProps inhalt="Inhalt für Props">
+          <p>child</p>
+        </ClassComponentWithProps>
       </header>
     </div>
   );
