@@ -49,6 +49,8 @@ function App() {
         {/* <Lifecycle propForProps="propValue"/> */}
         <h2>Use Effect</h2>
         <UseEffect />
+        <h2>m012</h2>
+        <Redux />
       </header>
     </div>
   );

@@ -76,13 +76,30 @@
 ## M010 | USE EFFECT
 
 - [ ] use effect hook
+- [ ] Demo
+- [ ] Commit [m010 demo](https://github.com/ppedvAG/2021-04-08-react/commit/5005acc71a3beb02c1c0f80ab19c304873fda2f4)
 - [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel kompletten Inhalt von `module60/indexT6.js` mit Strg A, Strg C und fügen Sie den kopierten Code in `index.js` mit Strg A, Strg V ein
 - [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version60`
+
+## M011 | COMPONENTS IN STATE
+
+- [ ] Slides: components communication > components in state
+- [ ] Übung: hide DateTime
+
+## M012 | REDUX
+
+- [ ] Slides: Redux.pdf > Intro
+- [ ] Demo: redux
+- [ ] react-redux
+- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel kompletten Inhalt von `module80/indexT8.js` mit Strg A, Strg C und fügen Sie den kopierten Code in `index.js` mit Strg A, Strg V ein
+- [ ] Lab: TODO APP, Beispiel kommt
+
+## M | ROUTING
 
 ## M009 | REACT & FORMS
 
 - [ ] forms
-- [ ] 
+
 ## MXX | LIFTING STATE UP
 
 - [x] lifting state up
@@ -107,15 +124,5 @@
 - [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente `AppWithClass` oder `AppWithFunctions` aus dem Ordner `module74`
 - [ ] Lab: TODO APP, kein Beispiel
 
-## MXX | COMPONENTS IN STATE
 
-- [ ] Slides: components communication > components in state
-- [ ] Demo: THEORY APP, kein Beispiel
-- [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version75`
 
-## MXX | REDUX
-
-- [ ] Slides: Redux.pdf > Intro
-- [ ] react-redux
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel kompletten Inhalt von `module80/indexT8.js` mit Strg A, Strg C und fügen Sie den kopierten Code in `index.js` mit Strg A, Strg V ein
-- [ ] Lab: TODO APP, Beispiel kommt
