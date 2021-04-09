@@ -3,6 +3,8 @@ import './App.css';
 import ElementChildren, { ComponentChildren, ReactChildren } from './m004/Children';
 import ClassComponent, { ClassComponentWithProps } from './m006/ClassComponent';
 import { DateTime } from './m007/DateTime';
+import Destructuring from './m008/Destructuring';
+import UseState from './m008/UseState';
 
 function App() {
   return (
@@ -37,6 +39,9 @@ function App() {
         </ClassComponentWithProps>
         <h2>State</h2>
         <DateTime />
+        <h2>m008 Destructuring & use state</h2>
+        <Destructuring/>
+        <UseState/>
       </header>
     </div>
   );

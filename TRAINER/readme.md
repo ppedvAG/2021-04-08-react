@@ -54,13 +54,16 @@
 - [ ] Demo: [DateTime.tsx](default-app/src/m007/DateTime.tsx)
 - [ ] Commit: [m007 datetime](https://github.com/ppedvAG/2021-04-08-react/commit/2a2f4fb2ac116ea8e046fa6567a63b9560792aa6)
 - [ ] Übung: [InputField.tsx](todo-app/src/m007/InputField.tsx)
-- [ ] Commit: [m007 input]
+- [ ] Commit: [m007 input](https://github.com/ppedvAG/2021-04-08-react/commit/71a8d071caeb22d4811a9471c7364aa9d24784a7)
+
+## M008 | ARRAYS DESTRUCTURING & USE STATE HOOK
+
 - [ ] use state hook
 - [ ] components in state
 - [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module50`
 - [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version50`
 
-## MXX | REACT & FORMS
+## M009 | REACT & FORMS
 
 - [ ] forms
 
