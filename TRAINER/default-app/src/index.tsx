@@ -3,16 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from 'react-router-dom';
 import Lifecycle from './m009/Lifecycle';
 import UseEffect from './m010/UseEffect';
 
-/* ReactDOM.render(
+ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
- */
+
 /* ReactDOM.render(
   <Lifecycle />, document.getElementById('lifecycleDiv') // ohne Strict werden intervale nicht gecleart!  
 ) */
@@ -23,17 +26,17 @@ import UseEffect from './m010/UseEffect';
   </React.StrictMode>, document.getElementById('lifecycleDiv')
 )
 
-let rootNode = document.getElementById('root')
-setTimeout(() => ReactDOM.unmountComponentAtNode(rootNode as Element), 2000) // Fehler wegen setState in der Komponente
+let lifecycleDivNode = document.getElementById('lifecycleDiv')
+setTimeout(() => ReactDOM.unmountComponentAtNode(lifecycleDivNode as Element), 2000) // Fehler wegen setState in der Komponente
  */
 
 
 
-ReactDOM.render(
+/* ReactDOM.render(
   <React.StrictMode>
     <UseEffect />
   </React.StrictMode>, document.getElementById('useEffectDiv')
-)
+) */
 
 let useEffectDiv = document.getElementById('useEffectDiv')
 setTimeout(() => ReactDOM.unmountComponentAtNode(useEffectDiv as Element), 2000) // Fehler wegen setState in der Komponente

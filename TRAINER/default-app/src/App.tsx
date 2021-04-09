@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
 import './App.css';
 import ElementChildren, { ComponentChildren, ReactChildren } from './m004/Children';
 import ClassComponent, { ClassComponentWithProps } from './m006/ClassComponent';
@@ -7,6 +8,7 @@ import Destructuring from './m008/Destructuring';
 import UseState from './m008/UseState';
 import Lifecycle from './m009/Lifecycle';
 import UseEffect from './m010/UseEffect';
+import Redux from './m012/Redux';
 
 function App() {
   return (
@@ -19,11 +21,18 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Homepage
+          React Homepage
         </a>
+        <Link to="/props-children">
         <h2>props.children</h2>
+        </Link>
+        <Switch>
+        <Route path="/rops-children" component={ElementChildren}></Route>
+        </Switch>
+  
+       
         <pre>Children von einem JSX-Element / React-Element</pre>
-        <ElementChildren />
+        {/* <ElementChildren /> */}
         <pre>Children von einer React-Komponente</pre>
         <ComponentChildren>
           <p>text für return der Komponente selbst</p>

@@ -90,6 +90,7 @@
 
 - [ ] Slides: Redux.pdf > Intro
 - [ ] Demo: redux
+- [ ] Commit: m012 demo
 - [ ] react-redux
 - [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel kompletten Inhalt von `module80/indexT8.js` mit Strg A, Strg C und fügen Sie den kopierten Code in `index.js` mit Strg A, Strg V ein
 - [ ] Lab: TODO APP, Beispiel kommt
@@ -112,17 +113,7 @@
 - [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module72`
 - [ ] Lab: TODO APP, kein Beispiel
 
-## MXX | PROPS.CHILDREN
+## | TS
 
-- [ ] Slides: components communication > props children
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module73`
-- [ ] Lab: TODO APP, kein Beispiel
-
-## MXX | SPECIALIZATION
-
-- [ ] Slides: components communication > specialization
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente `AppWithClass` oder `AppWithFunctions` aus dem Ordner `module74`
-- [ ] Lab: TODO APP, kein Beispiel
-
-
-
+primitiven
+literal types
