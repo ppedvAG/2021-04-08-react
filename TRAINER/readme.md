@@ -67,17 +67,22 @@
 - [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module50`
 - [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version50`
 
-## M009 | REACT & FORMS
-
-- [ ] forms
-
-## MXX | COMPONENTS LIFECYCLE
+## M009 | COMPONENTS LIFECYCLE
 
 - [ ] lifecycle methods
+- [ ] Demo: Lifecycle
+- [ ] Übung: fetch todos in componentDidMount
+
+## M010 | USE EFFECT
+
 - [ ] use effect hook
 - [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel kompletten Inhalt von `module60/indexT6.js` mit Strg A, Strg C und fügen Sie den kopierten Code in `index.js` mit Strg A, Strg V ein
 - [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version60`
 
+## M009 | REACT & FORMS
+
+- [ ] forms
+- [ ] 
 ## MXX | LIFTING STATE UP
 
 - [x] lifting state up

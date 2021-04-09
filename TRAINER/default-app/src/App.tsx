@@ -5,6 +5,8 @@ import ClassComponent, { ClassComponentWithProps } from './m006/ClassComponent';
 import { DateTime } from './m007/DateTime';
 import Destructuring from './m008/Destructuring';
 import UseState from './m008/UseState';
+import Lifecycle from './m009/Lifecycle';
+import UseEffect from './m010/UseEffect';
 
 function App() {
   return (
@@ -39,9 +41,14 @@ function App() {
         </ClassComponentWithProps>
         <h2>State</h2>
         <DateTime />
-        <h2>m008 Destructuring & use state</h2>
+        <h2>m008 Destructuring & Hooks</h2>
         <Destructuring/>
+        <pre>use state</pre>
         <UseState/>
+        <h2>m009 Lebenszyklus</h2>
+        {/* <Lifecycle propForProps="propValue"/> */}
+        <h2>Use Effect</h2>
+        <UseEffect />
       </header>
     </div>
   );

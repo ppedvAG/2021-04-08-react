@@ -12,6 +12,9 @@ export class DateTime extends Component<{}, { timeProp: string }> {
             this.setState({ timeProp: new Date().toLocaleTimeString() })
         }, 1000)
     }
+    componentWillUnmount() {
+        console.log('will unmount');
+    }
 
     render() {
         return (

@@ -35,27 +35,34 @@ function TodosM008() {
     const [myState, changeMyState] = useState({ todos: todos });
 
     let handleChange = (selectObject: any) => {
-        let newTodos = myState.todos
-        for (const newTodo of newTodos) {
-            if (newTodo.id === selectObject.id)
-                newTodo.rating = selectObject.value
-        }
+        console.log('handleChange triggert');
+        console.log('selectObject :>> ', selectObject);
+        console.log('selectObject.id :>> ', selectObject.id);
+        console.log('selectObject.value :>> ', selectObject.value);
+        let newTodos = myState.todos;
+        newTodos.forEach((el) => {
+            if (el.id === selectObject.id)
+                el.rating = selectObject.value
+        }) // todo #1
+/*         newTodos.map((item) => {
+            if (item.id === selectObject.id) {
+                item.rating = selectObject.value;
+            }
+                return item;
+        }) */
+        console.log('newTodos :>> ', newTodos);
         changeMyState({ todos: newTodos })
-        console.log('handleChange triggert');    
+        console.log('myState.todos :>> ', myState.todos);
     }
-    const myTbody = (
-        <tbody>
-            {myState.todos.map(todo => (
-                <TodoComponent key={todo.id} todoInProps={todo} handleChangeFuerTodo={handleChange} />
-            ))}
-        </tbody>
-    )
 
     return (
         <table>
-            {myTbody}
+            <tbody>
+                {myState.todos.map(todo => (
+                    <TodoComponent key={todo.id} todoInProps={todo} handleChangeFuerTodo={handleChange} />
+                ))}
+            </tbody>
         </table>
-
     );
 }
 
@@ -99,10 +106,10 @@ function Rating(propsVonTodo: any) {
 function Rating2(propsVonTodo: { id: string | undefined; handleChangeFuerRating: (arg0: EventTarget & HTMLSelectElement) => void; stars: number }) {
     return (
         <>
-            <select 
-            id={propsVonTodo.id} 
-            onChange={(event) => propsVonTodo.handleChangeFuerRating(event.target)}
-            value={propsVonTodo.stars}>
+            <select
+                id={propsVonTodo.id}
+                onChange={(event) => propsVonTodo.handleChangeFuerRating(event.target)}
+                value={propsVonTodo.stars}>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
