@@ -59,6 +59,10 @@
 ## M008 | ARRAYS DESTRUCTURING & USE STATE HOOK
 
 - [ ] use state hook
+- [ ] Demo
+- [ ] Commit: [m008 demo](https://github.com/ppedvAG/2021-04-08-react/commit/ab8b439d85a4130bd51c08c9a48aa75d63b7359d)
+- [ ] Übung: Rating Komponente und Lifting state up
+- [ ] Commit: [m008 ue data binding fehlt]
 - [ ] components in state
 - [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module50`
 - [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version50`

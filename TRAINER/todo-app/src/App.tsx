@@ -1,7 +1,7 @@
-import React from 'react';
 import './App.css';
 import TodosTable from './m003/todosTable';
 import InputField from './m007/InputField';
+import TodosM008 from './m008/Todos';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
       </header>
       <TodosTable />
       <InputField />
+      <TodosM008/>
     </div>
   );
 }
